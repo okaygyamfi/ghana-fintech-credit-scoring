@@ -70,5 +70,5 @@ Create visualizations
 License
 Research and educational purposes.
 
-## Link to credit-scoring-system
-https://ghana-fintech-credit-scoring-test-run.streamlit.app
+
+
