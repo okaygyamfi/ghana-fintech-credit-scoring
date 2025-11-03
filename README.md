@@ -4,7 +4,7 @@
 ## Project Overview
 This project develops an alternative credit scoring framework for Ghana's informal sector using mobile money transaction data. The prototype uses synthetic data that mimics real-world patterns from Bank of Ghana and Ghana Statistical Service sources.
 
-## 🚀 Live Demo
+##  Live Demo
 **Try the live application:** [Ghana FinTech Credit Scoring App](https://ghana-fintech-credit-scoring-test-run.streamlit.app)
 
 ## Research Context
@@ -14,7 +14,7 @@ This project develops an alternative credit scoring framework for Ghana's inform
 
 ## Project Structure
 ghana_fintech_credit/
-├── 📊 data/
+├──  data/
 │ └── ghana_fintech_credit_data.csv
 ├── 🔧 scripts/
 │ ├── step1_data_generation.py
@@ -23,10 +23,10 @@ ghana_fintech_credit/
 │ ├── step4_model_training.py
 │ ├── step5_business_deployment.py
 │ └── step6_monitoring_retraining.py
-├── 🌐 app.py # Streamlit Web Application
-├── 📋 requirements.txt
-├── 📖 README.md
-└── 📁 images/
+├──  app.py # Streamlit Web Application
+├──  requirements.txt
+├──  README.md
+└──  images/
 
 text
 
@@ -43,7 +43,7 @@ The synthetic data replicates patterns from:
 - **Financial Behavior**: Savings, bill payments, income stability
 - **Target Variable**: Loan default prediction
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -64,14 +64,14 @@ streamlit run app.py
 Required Packages
 bash
 pip install pandas numpy scikit-learn matplotlib seaborn faker joblib jupyter streamlit
-📈 Model Performance
+ Model Performance
 Composite Model: AUC-ROC 0.83, Accuracy 79.2%
 
 Key Predictors: Transaction consistency, bill payment punctuality
 
 Business Impact: 25% improvement in approval rates
 
-🌐 Web Application Features
+ Web Application Features
 The Streamlit app provides:
 
 Real-time credit scoring based on transaction behavior
@@ -97,7 +97,7 @@ Loan amount requested
 
 Interest rate
 
-🎯 Usage
+ Usage
 Local Development
 bash
 # Run Jupyter notebook for analysis
@@ -114,7 +114,7 @@ Production Deployment
 The application is deployed on Streamlit Cloud and accessible at:
 https://ghana-fintech-credit-scoring-test-run.streamlit.app
 
-🔬 Research Methodology
+ Research Methodology
 Data Generation: Synthetic data creation reflecting Ghana's mobile money ecosystem
 
 Feature Engineering: Behavioral pattern extraction from transaction data
@@ -125,7 +125,7 @@ Validation: Cross-validation and business impact analysis
 
 Deployment: Web application for real-time credit assessment
 
-📊 Next Steps
+ Next Steps
 Generate synthetic data and save to CSV
 
 Explore data patterns and regional variations
