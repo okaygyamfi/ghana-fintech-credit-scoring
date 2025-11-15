@@ -27,7 +27,6 @@ ghana_fintech_credit/
 ├──  README.md
 └──  images/
 
-text
 
 ## Data Sources
 The synthetic data replicates patterns from:
@@ -138,7 +137,4 @@ Create stakeholder visualizations
 Deploy monitoring and retraining systems
 
 License
-Research and educational purposes.
-
-📄 License
 Research and educational purposes.
